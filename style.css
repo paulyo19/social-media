@@ -4,11 +4,13 @@ html {
 
 header {
     background-color: #613DC1;
+    padding: 15px;
 }
 
 header .logo-area {
     color: white;
     display: inline-block;
+    width: 20%;
 }
 
 header .logo-area a {
@@ -18,6 +20,7 @@ header .logo-area a {
 }
 header .menu {
     display: inline-block;
+    width: 40%
 }
 header .menuu ul li {
     display: inline-block;
@@ -36,6 +39,7 @@ header .icon-links, .privacy {
 }
 header .search-area {
     display: inline-block;
+    width: 40%;
 }
 header .search-area ul li {
     display: inline-block;
