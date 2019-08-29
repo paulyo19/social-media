@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: sans-serif;
 }
@@ -6,11 +10,17 @@ header {
     background-color: #613DC1;
     padding: 15px;
 }
+header a {
+    color: white;
+    text-decoration: none;
+
+}
 
 header .logo-area {
     color: white;
     display: inline-block;
     width: 20%;
+    margin-left: -4px;
 }
 
 header .logo-area a {
@@ -20,13 +30,23 @@ header .logo-area a {
 }
 header .menu {
     display: inline-block;
-    width: 40%
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    text-align: right;
+    padding-right: 20px;
 }
+
 header .menuu ul li {
     display: inline-block;
 }
 header .icon-links {
     display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    padding-left: 20px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    padding-right: 20px;
 }
 header .icon-links ul li {
     display: inline-block;
@@ -36,10 +56,13 @@ header .icon-links, .quick-options {
 }
 header .icon-links, .privacy {
     display: inline-block;
+    margin-left: -4px;
 }
 header .search-area {
     display: inline-block;
     width: 40%;
+    margin-left: -4px;
+    text-align: right;
 }
 header .search-area ul li {
     display: inline-block;
