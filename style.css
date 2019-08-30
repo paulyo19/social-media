@@ -143,7 +143,16 @@ header .search-area ul li {
 
 }
 #content-area .side-column{
-    width: 40%;
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+    height: 600px;
+}
+#content-area .main-area{
+    float: left;
+    width: 55%;
+    margin: 0 2.5%;
+    height: 600px;
 }
 
 
