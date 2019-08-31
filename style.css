@@ -237,6 +237,9 @@ box-shadow: 0px 4px 24px -12px rgba(0,0,0,0.75);
 #content-area .main-area .widget-box.post{
     overflow: auto;
 }
+#content-area .main-area .widget-box.post .head{
+    margin: 0 0 15px 0;
+}
 #content-area .main-area .widget-box.post .head .user-image-container{
     width: 8%;
     display: inline-block;
