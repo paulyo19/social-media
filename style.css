@@ -7,6 +7,11 @@ html {
 }
 a {
     text-decoration: none;
+    color: #3b5998;
+    transition: all .2s ease-in-out;
+}
+a:hover {
+    color: red;
 }
 /*  
 ////////// NAVBAR //////////////////////////////////////////
@@ -193,7 +198,7 @@ box-shadow: 0px 4px 24px -12px rgba(0,0,0,0.75);
     padding: 20px 0;
 }
 
-/*//////////submenu and posts/////////////////////////////////  */
+/*//////////submenu/////////////////////////////////  */
 #content-area .main-area .widget-box.submenu{
     padding: 0;
     margin: 0 0 20px 0;
@@ -228,6 +233,61 @@ box-shadow: 0px 4px 24px -12px rgba(0,0,0,0.75);
     text-transform: uppercase;
     font-size: 14px;
 }
+/*/////// POSTS ////////////////////////////////// */
+#content-area .main-area .widget-box.post{
+    overflow: auto;
+}
+#content-area .main-area .widget-box.post .head .user-image{
+    display: inline-block;
+    float: left;
+    background: url(afc.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+#content-area .main-area .widget-box.post .head .post-info{
+    display: inline-block;
+    float: left;
+    width: 85%;
+}
+#content-area .main-area .widget-box.post .head .post-info::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 6px 0;
+}
+#content-area .main-area .widget-box.post .head .post-info .post-date{
+    display: block;
+    font-size: 12px;
+    color: #ababab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
